@@ -5,7 +5,7 @@
   "type": "module",
  "scripts": {
     "dev": "tsx server.ts",
-    "build": "vite build",
+    "build": "vite build --base=/MEDISIS/",  <-- ★ここを「--base=/MEDISIS/」付きに変える
     "start": "node dist/server.cjs",
     "clean": "rm -rf dist server.js"
   },
