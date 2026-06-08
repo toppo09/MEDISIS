@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/MEDISIS/', // ★リポジトリ名をスラッシュで挟んで指定
+  base: '/MEDISIS/', 
 })
